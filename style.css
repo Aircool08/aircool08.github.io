@@ -63,6 +63,7 @@ html, body {
   color: #ffffff;
 }
 
+
 .bio:hover, .skills:hover, .projects:hover, .social:hover {
   transform: translateY(-10px);
   background: rgba(0, 0, 0, 0.9); /* Slightly darker background on hover */
@@ -123,12 +124,58 @@ html, body {
   transform: scale(1.05);
 }
 
+/* Gallery Section */
+.gallery-section {
+  padding: 50px 20px;
+  text-align: center;
+  /*background: #0d0d0d;*/
+}
+
+.gallery-section h2 {
+  color: #f0134d;
+  text-shadow: 0 0 10px #f0134d;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  max-width: 300px;
+  border: 2px solid #f0134d;
+  box-shadow: 0 0 10px #f0134d;
+  transition: 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #f0134d;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f0134d;
+}
+
+
 /* Footer */
 .footer {
   margin-top: 20px;
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.6);
 }
+
 
 
 /*@font-face {
